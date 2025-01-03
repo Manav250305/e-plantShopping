@@ -48,7 +48,7 @@ const calculateTotalAmount = () => {
   };
 
   const handleRemove = (item) => {
-    dispatch(removeItem(item));
+    dispatch(removeItem(item.name)); // Pass only the name of the item
   };
 
   // Calculate total cost based on quantity for an item

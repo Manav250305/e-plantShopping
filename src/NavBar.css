@@ -1,0 +1,34 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.navbar-logo h1 {
+  margin: 0;
+}
+
+.navbar-cart {
+  position: relative;
+}
+
+.navbar-cart i {
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.cart-quantity-badge {
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 2px 6px;
+  position: absolute;
+  top: -5px;
+  right: -10px;
+}
